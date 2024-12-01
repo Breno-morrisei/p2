@@ -1,0 +1,44 @@
+/* tag para mudar a cor no bootstrap */
+.navbar-custom {
+    background-color: #1c6470;
+}
+
+.nav-link.itens {
+  color: #77262e; /* Cor personalizada para Home */
+}
+
+body {
+  background-color: #ffd7a9;
+}
+
+/* tag para customizar login*/
+
+.form-custom {
+    background-color: #1c6470; /* Cor hexadecimal personalizada */
+    border-radius: 15px; /* Cantos arredondados */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombrinha leve */
+    max-width: 350px; /* Largura máxima ajustada */
+    width: 80%; /* A largura vai ser 80% do tamanho da tela, até o máximo de 350px */
+    margin: auto; /* Centraliza o formulário */
+}
+
+.form-custom-email {
+  background-color: #1c6470; /* Cor hexadecimal personalizada */
+  border-radius: 15px; /* Cantos arredondados */
+  padding: 20px; /* Espaçamento interno */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombrinha leve */
+  max-width: 650px; /* Aumentando a largura máxima */
+  width: 100%; /* A largura vai ser 100% do tamanho da tela até o máximo de 650px */
+  margin: auto; /* Centraliza o formulário */
+}
+
+.form-control {
+  height: 45px; /* Aumentando a altura dos inputs */
+  font-size: 16px; /* Aumentando o tamanho da fonte */
+}
+
+/* Ajuste específico para o input de mensagem (textarea) */
+textarea.form-control {
+  height: 150px; /* Aumentando a altura do textarea */
+}
